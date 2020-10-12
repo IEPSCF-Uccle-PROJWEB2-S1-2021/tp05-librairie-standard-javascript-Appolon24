@@ -9,7 +9,7 @@ function chuckNorris(msg) {
     if (tableau[0] === '1'){
       unaryCode += "0 0";
     }
-    else{
+    else {
       unaryCode += "00 0"
     }
     for(let a = 1; a < tableau.length; a++){
